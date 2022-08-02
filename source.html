@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <meta charset="utf-8">
+        <title>Hangman</title>
+        <link rel="stylesheet" type="text/css" href="./source.css">
+        <link rel="manifest" href="./manifest.json">
+        <link rel="icon" type="image/x-icon" href="./obesency/fav.jpg">
+        <script src="source.js" defer></script>
+    </head>
+    
+    <body> 
+        <header>
+            <h1>Hangman</h1>
+        </header>
+        
+        <section id="obesenec">
+            <h5>`</h5>
+        </section>
+        <section id="hadanka">
+            <h5>`</h5>
+        </section>
+        <div id="hinty">
+            <button id="napoviem">Hint</button>
+            <div id="textHint"></div>
+        </div>
+        <div class="drag_pole"></div>
+        <section id="abeceda">
+            <h5>`</h5>
+        </section>
+        <div class="backdrop" id="backdrop1">
+            <div class="modal" id="modal1">
+                <h2>Welcome to Hangman</h2>
+                <h4>How to play</h4>
+                <p>This game is called Hangman. It is a game that is played in school to this day.
+                     To beat this game you have to fill in 
+                    the underlined spots by draging the letters on green spot. If you guess
+                    the right letter , it will fill all underlined spots where this letter
+                    should be ,but if you guess wrong the pictures of Hangman will begin to
+                    show. If you guess the word right you will get a point. There are 10
+                    levels in total to beat. Can you beat them all?
+                </p>
+                <button class="batton" id="closed">Begin</button>
+            </div>
+        </div>
+        <div class="backdrop" id="backdrop2">
+            <div class="modal" id="modal2">
+                <h2>Too Late</h2>
+                <div id="spravnaOdpoved"></div>
+                <button class="batton" id="restart">Next</button>
+            </div>
+        </div>
+        <div class="backdrop" id="backdrop3">
+            <div class="modal" id="modal3">
+                <h2>Next Level</h2>
+                <p>Well done you have completed the level, now continue.</p>
+                <button class="batton" id="next">Next</button>
+            </div>
+        </div>
+        <div class="backdrop" id="backdrop4">
+            <div class="modal" id="modal4">
+                <h2>You Won</h2>
+                <div id="winText"></div>
+                <button class="batton" id="znova">Play again</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+{
+    "hadanky":
+    [
+        {
+            "src": ["A","L","P","H","A","B","E","T"],
+            "hint": "Letters"
+        },
+        {
+            "src": ["M","O","T","O","R","C","Y","C","L","E"],
+            "hint": "Vehicle"
+        },
+        {
+            "src": ["O","R","A","N","G","E"],
+            "hint": "Fruit"
+        },
+        {
+            "src": ["P","A","P","E","R","C","L","I","P"],
+            "hint": "Office"
+        },
+        {
+            "src": ["S","H","I","S","H","A"],
+            "hint": "Smoke"
+        },
+        {
+            "src": ["C","O","N","T","R","O","L","L","E","R"],
+            "hint": "Gaming"
+        },
+        {
+            "src": ["C","A","L","C","U","L","A","T","O","R"],
+            "hint": "Math"
+        },
+        {
+            "src": ["P","I","L","L","O","W"],
+            "hint": "Sleep"
+        },
+        {
+            "src": ["M","O","T","H","E","R","B","O","A","R","D"],
+            "hint": "Computer"
+        },
+        {
+            "src": ["A","I","R","P","O","D","S"],
+            "hint": "Apple"
+        }
+    ]
+}
